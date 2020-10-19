@@ -1,0 +1,173 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Navbar */
+
+#title {
+  background-color: #ff4c68;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: ubuntu;
+  font-weight: bold;
+}
+
+.navbar-nav li {
+  padding-left: 40px;
+  font-size: 1.2rem;
+}
+
+/* Title */
+
+.h1-Head {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.btn-outline-light {
+  margin-left: 15px;
+}
+
+.iphone6-img img {
+  transform: rotate(30deg);
+  width: 60%;
+  margin-left: 30px;
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#features h3 {
+  padding-top: 16px;
+  font-weight: Bold;
+  font-size: 1.5rem;
+}
+
+#features p {
+  color: #8f8f8f;
+}
+
+.features-box {
+  padding: 5%;
+}
+
+.features-icons {
+  color: #ef8172;
+}
+
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 30px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#cta h3 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+#footer {
+  text-align: center;
+  height: 100px;
+  background-color: #fff;
+  margin-top: 80px;
+}
+
+.icon-footer {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .iphone6-img img {
+    position: static;
+    transform: rotate(0);
+    padding-top: 20px;
+    margin: auto;
+  }
+}
